@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TRIBUTE_PAGE</title>
+    <style>
+        body{
+            background: linear-gradient(135deg, #277b84,#81b381 ,rgb(87, 25, 87));
+        }
+     .name{
+        justify-content: center;
+        text-align: center;
+    }
+    .name span{
+      color: #121290;
+    }
+    .upper h1{
+        justify-content: center;
+        text-align: center;
+    }
+    .upper p{
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-size: 2rem;
+        color: #4d0f4d;
+    }
+    .copy img{
+  height: 333px;
+  width: 339px;
+  justify-content: center;
+  align-items: center;
+  margin-left: 39%;
+  border-radius: 1112px;
+  box-shadow: 1px 1px 113px 39px #1b1b4b;
+    }
+.content{
+    text-align: center;
+    height: 42vh;
+    width: 75vw;
+    background: linear-gradient(35deg, rgba(0,0,0,0.8), rgba(59,41,77,0.9));
+    color: white;
+    justify-content: center;
+    align-items: center;
+  margin-left: 12%;
+  border-radius: 16px;
+  border:4px solid #264656;
+  opacity: .8;
+}
+ .null h1{
+    border-bottom: 3px solid #284b5e;
+    padding-bottom:10px;
+    margin-bottom: 25px;
+    line-height: 4rem;
+    border-radius: 15px;
+ }
+ .regards{
+    height: 41vh;
+    width: 45vw;
+    background: linear-gradient(123deg, #223,#567);
+    opacity: .9;
+    color: white;
+    margin-left: 25%;
+    border-radius: 34px;
+  box-shadow: 2px 2px 2px #543245;
+ }
+ .regards h1{
+    text-align: center;
+ }
+ .regards p{
+    text-align: center;
+    font-size: 1.5rem;
+ }
+ .volume{
+    text-align: center;
+     margin: 40px 0;
+    padding: 30px;
+ }
+ .volume {
+    background: linear-gradient(145deg, #274f76, #34495e, #1abc9c);
+    background-size: 300% 300%;
+    animation: gen 4s ease infinite;
+    color: transparent;
+    background-clip: text;
+    font-size: 1rem;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+    margin-bottom: 20px;
+    padding: 20px;
+    border: 3px solid transparent;
+    border-image: linear-gradient(45deg, #3498db, #9b59b6, #e74c3c) 1;
+    border-radius: 15px;
+    position: relative;
+    overflow: hidden;
+}
+@keyframes gen {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+.volume h1::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    background: linear-gradient(90deg, transparent, rgba(255,255,255,0.2), transparent);
+    animation: conf 3s infinite;
+}
+@keyframes conf {
+    0% { left: -100%; }
+    100% { left: 100%; }
+}
+</style>
+    
+</head>
+<body>
+       <div class="name">
+        <h1>TRIBUTE <span>PAGE</span> </h1>
+       </div>
+       <div class="upper">
+        <h1>“Life is like riding a bicycle. To keep your balance, you must keep moving”</h1>
+        <p>--Albert Einstein</p>
+       </div>
+     <div class="copy">
+        <img src="https://res.cloudinary.com/jerrick/image/upload/d_642250b563292b35f27461a7.png,f_jpg,fl_progressive,q_auto,w_1024/643165cc56d4cd001d205b3c.jpg" alt="img">
+     </div>
+       <div class="content">
+            <div class="null">
+                <h1>ABOUT HIM-</h1>
+                <p>--Born March 14, 1879, Ulm, Württemberg, Germany.</p>
+                <p>--He was a German-born physicist who developed the special and general theories of relativity and won the Nobel Prize for Physics in 1921 for his explanation of the photoelectric effect.</p>
+                <p>--Albert Einstein is best known for his theory of relativity</p>
+                <p>--Einstein's IQ was probably about 160</p>
+                <p>--Died April 18, 1955, Princeton, New Jersey, U.S.</p>
+            </div>
+       </div>
+       <div class="regards">
+        <h1>His Achievements:</h1>
+        <p>-Special Theory of Relativity (1905)</p>
+        <p>-Relativity (English translations, 1920 and 1950)</p>
+        <p>-General Theory of Relativity (1916)</p>
+        <p>-Investigations on Theory of Brownian Movement (1926), and The Evolution of Physics (1938).</p>
+       </div> 
+       <div class="volume">
+           <h1> It's not that I'm so smart, it's just that I stay with problems longer.</h1>
+           <p>--ALBERT EINSTEIN</p>
+
+       </div>
+</body>
+</html>
